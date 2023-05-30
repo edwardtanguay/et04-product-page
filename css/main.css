@@ -8,7 +8,13 @@ body {
 	background: #aaa;
 	height: 100vh;
 	background: rgb(186, 202, 217);
-	background: linear-gradient(267deg, rgba(186, 202, 217, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 70%, rgba(186, 202, 217, 1) 100%);
+	background: linear-gradient(270deg, rgba(186, 202, 217, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 70%, rgba(186, 202, 217, 1) 100%);
+	font-family: verdana;
+	padding-top: 30vw;
+}
+
+body a {
+	color: navy;
 }
 
 header {
@@ -19,13 +25,13 @@ header {
 	height: 30vw;
 	background-image: url('../images/runner.jpg');
 	background-size: cover;
+	max-height: 50%;
 }
 
 header h1 {
 	position: absolute;
 	top: 100px;
 	left: 10vw;
-	font-family: verdana;
 	font-style: italic;
 	font-size: 4vw;
 	font-weight: bold;
@@ -33,4 +39,33 @@ header h1 {
 	opacity: .7;
 }
 
-main {}
+main {
+	padding: 2rem 10%;
+}
+
+main h2 {
+	font-size: 1.7rem;
+	color: rgb(19, 19, 83);
+	border-bottom: 1px solid orange;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+
+main h2:first-of-type {
+	margin-top: 0;
+}
+
+main section img {
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+main section ul {
+	margin-left: 1rem;
+}
+
+main section ul li {
+	margin-bottom: .5rem;
+}

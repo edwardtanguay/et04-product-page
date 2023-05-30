@@ -69,3 +69,22 @@ main section ul {
 main section ul li {
 	margin-bottom: .5rem;
 }
+
+footer {
+	background-color: rgb(42, 42, 70);
+	padding: 2rem 10%;
+	display: flex;
+	gap: 1rem;
+	font-size: 1.4rem;
+	align-items: center;
+}
+
+footer p {
+	color: #ccc;
+}
+
+footer img {
+	width: 70px;
+	border-radius: 50%;
+	aspect-ratio: 1/1;
+}

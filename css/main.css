@@ -10,7 +10,7 @@ body {
 	background: rgb(186, 202, 217);
 	background: linear-gradient(270deg, rgba(186, 202, 217, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 70%, rgba(186, 202, 217, 1) 100%);
 	font-family: verdana;
-	padding-top: 30vw;
+	padding-top: 30vh;
 }
 
 body a {
@@ -22,9 +22,10 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 30vw;
+	height: 30vh;
 	background-image: url('../images/runner.jpg');
 	background-size: cover;
+	background-position: top;
 	max-height: 50%;
 }
 
